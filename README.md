@@ -72,8 +72,8 @@ Sayfa içerikleri yerel data.json dosyasından çekilmiştir.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: (https://melikeozlen.github.io/space-tourism-website-main/destination.html)
+- Solution URL: https://www.frontendmentor.io/solutions/spacetourismwebsite-BJM36orI5
+- Live Site URL: https://melikeozlen.github.io/space-tourism-website-main/destination.html
 
 ## My process
 
