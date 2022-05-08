@@ -38,12 +38,12 @@ Kullanıcı şunları yapabilmelidir:
 #Destination
 Sayfa içerikleri yerel data.json dosyasından çekilmiştir.
 <p float="left">
- <img  src="![image](https://user-images.githubusercontent.com/44196940/167314234-7e4d9e02-88fd-416f-be45-51318a26d777.png)" width="49%"/> 
-<img  src="![image](https://user-images.githubusercontent.com/44196940/167314248-c97cdf56-35fb-4ea2-ac43-7a4c0fe3bfaf.png)" width="49%"/> 
+ <img  src="https://user-images.githubusercontent.com/44196940/167314234-7e4d9e02-88fd-416f-be45-51318a26d777.png" width="49%"/> 
+<img  src="https://user-images.githubusercontent.com/44196940/167314248-c97cdf56-35fb-4ea2-ac43-7a4c0fe3bfaf.png" width="49%"/> 
 </p>
 <p float="left">
- <img  src="![image](https://user-images.githubusercontent.com/44196940/167314259-e71fda44-ea8c-4c1c-9645-0da7f63a673e.png)" width="49%"/> 
-<img  src="![image](https://user-images.githubusercontent.com/44196940/167314269-8775d632-fd69-42f3-9744-d97169b26473.png)" width="49%"/> 
+ <img  src="https://user-images.githubusercontent.com/44196940/167314259-e71fda44-ea8c-4c1c-9645-0da7f63a673e.png" width="49%"/> 
+<img  src="https://user-images.githubusercontent.com/44196940/167314269-8775d632-fd69-42f3-9744-d97169b26473.png" width="49%"/> 
 </p>
 
 ### Links
