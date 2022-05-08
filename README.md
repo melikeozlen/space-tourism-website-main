@@ -29,13 +29,13 @@ Kullanıcı şunları yapabilmelidir:
 - Yeni bilgileri görmek için sekmeler arasında geçiş 
 
 ### Screenshot
-#Açılış sayfası
+-Home
 <p float="left">
  <img  src="https://user-images.githubusercontent.com/44196940/167313727-606b00b4-a09b-416a-873f-127b7f97f09d.png" width="49%"/> 
 <img  src="https://user-images.githubusercontent.com/44196940/167314090-8810e08e-626b-4274-910d-8d747e70301a.png" width="49%"/> 
 </p>
 
-#Destination
+-Destination
 Sayfa içerikleri yerel data.json dosyasından çekilmiştir.
 <p float="left">
  <img  src="https://user-images.githubusercontent.com/44196940/167314234-7e4d9e02-88fd-416f-be45-51318a26d777.png" width="49%"/> 
@@ -45,6 +45,17 @@ Sayfa içerikleri yerel data.json dosyasından çekilmiştir.
  <img  src="https://user-images.githubusercontent.com/44196940/167314398-9f06a579-16b5-4bae-8f59-4b3d8a98aa09.png" width="49%"/> 
 <img  src="https://user-images.githubusercontent.com/44196940/167314424-0bab480e-c28a-48ba-bd98-25a5d3514872.png" width="49%"/> 
 </p>
+
+-Crew
+<p float="left">
+ <img  src="https://user-images.githubusercontent.com/44196940/167314495-f021e54d-6e52-473d-8da3-2d34c065b3ed.png" width="49%"/> 
+<img  src="https://user-images.githubusercontent.com/44196940/167314517-18b91021-9559-43d0-9656-1af573bf3a4e.png" width="49%"/> 
+</p>
+
+-Technology
+
+ <img align="center" src="https://user-images.githubusercontent.com/44196940/167314568-1a97ea49-fd1d-4869-a4f7-c93a9d93a21f.png" width="80%"/> 
+
 
 
 ### Links
