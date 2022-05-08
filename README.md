@@ -54,7 +54,18 @@ Sayfa içerikleri yerel data.json dosyasından çekilmiştir.
 
 -Technology
 
- <img align="center" src="https://user-images.githubusercontent.com/44196940/167314568-1a97ea49-fd1d-4869-a4f7-c93a9d93a21f.png" width="80%"/> 
+ <img src="https://user-images.githubusercontent.com/44196940/167314568-1a97ea49-fd1d-4869-a4f7-c93a9d93a21f.png" width="100%%"/> 
+
+-TABLET
+
+ <img  src="https://user-images.githubusercontent.com/44196940/167314628-4da22888-3654-4e7b-8466-f7179e6762d4.png" width="100%"/> 
+<p float="left">
+ <img  src="https://user-images.githubusercontent.com/44196940/167314717-e9d5fb42-9901-4f6b-bf33-63f5fc2acc71.png" width="33%"/> 
+<img  src="https://user-images.githubusercontent.com/44196940/167314743-b4cd4c99-4f58-4af1-8e11-ae61f5dfdcab.png" width="33%"/> 
+<img  src="https://user-images.githubusercontent.com/44196940/167314772-d89b3ee0-efa7-4c7a-8599-952ce0b138b5.png" width="33%"/> 
+  
+</p>
+
 
 
 
