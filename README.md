@@ -67,12 +67,17 @@ Sayfa içerikleri yerel data.json dosyasından çekilmiştir.
 <img  src="https://user-images.githubusercontent.com/44196940/167314628-4da22888-3654-4e7b-8466-f7179e6762d4.png" width="50%"/> 
 </p>
 
+-Mobile
+<p float="left">
+ <img  src="https://user-images.githubusercontent.com/44196940/167314987-bac73c3e-36de-4635-8693-9392e704d79e.png" width="49%"/> 
+<img  src="https://user-images.githubusercontent.com/44196940/167314994-1f92d96c-e369-43ac-be9d-abd267c4da61.png" width="49%"/> 
+</p>
 
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://melikeozlen.github.io/space-tourism-website-main/destination.html)
 
 ## My process
 
