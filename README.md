@@ -94,20 +94,6 @@ Sayfa içerikleri yerel data.json dosyasından çekilmiştir.
 Birden çok sayfa ile çalışmayı. Header footer gibi ortak içerikleri bir kere yazıp kullanmayı öğrendim. Less pratiği yaptım. Json dosyasından veri çektim. Sayfa botuna göre kontrol yaptırıp Javascript kodumu sayfaya uyumlu yazdım.
 
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
 
 ### Continued development
 
