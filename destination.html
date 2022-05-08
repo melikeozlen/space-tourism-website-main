@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+    </script>
+  <script>
+    $(function () {
+      $("#header").load("header.html");
+      $("#footer").load("footer.html");
+    });
+  </script>
+  <link rel="stylesheet/less" type="text/css" href="style/style.less" />
+  <link rel="stylesheet/less" type="text/css" href="style/destination.less" />
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+
+<body>
+  <div id="header"></div>
+
+
+  <div class="container">
+    <p class="p">
+      <span>01 </span> pick your destination
+    </p>
+    <ul class="ul">
+      <li>
+        <button class="moon">Moon</button>
+      </li>
+      <li>
+        <button class="mars">Mars</button>
+      </li>
+      <li>
+        <button class="europa">Europa</button>
+      </li>
+      <li>
+        <button class="titan">Titan</button>
+      </li>
+    </ul>
+    <div class="destination">
+      <img id="destination_img" src="./assets/destination/image-moon.png" alt="">
+    </div>
+    <div class="destination_content">
+      <h1 id="destination_name">
+        MOON
+      </h1>
+      <p id="description">
+        See our planet as you’ve never seen it before. A perfect relaxing trip away to help
+        regain perspective and come back refreshed. While you’re there, take in some history
+        by visiting the Luna 2 and Apollo 11 landing sites.
+      </p>
+      <div class="info">
+        <h3> Avg. distance</h3>
+        <h3>Est. travel time</h3>
+        <h2 id="distance"> 384,400 km</h2>
+        <h2 id="travel"> 3 days</h2>
+      </div>
+    </div>
+  </div>
+  <div id="footer"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/less@4"></script>
+  <script src="script/destination.js"></script>
+</body>
+
+</html>

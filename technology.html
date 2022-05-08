@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+    </script>
+  <script>
+    $(function () {
+      $("#header").load("header.html");
+      $("#footer").load("footer.html");
+
+    });
+  </script>
+  <link rel="stylesheet/less" type="text/css" href="style/style.less" />
+  <link rel="stylesheet/less" type="text/css" href="style/technology.less" />
+
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+
+<body>
+  <div id="header"></div>
+  <main>
+    <div class="container">
+      <p class="p"><span> 03</span> Space launch 101</p>
+      <ul id="ul">
+        <li class="one">1</li>
+        <li class="two">2</li>
+        <li class="three">3</li>
+      </ul>
+      <div class="text">
+        <h3>
+          The terminology...
+        </h3>
+        <h1 class="name">
+          Launch vehicle
+        </h1>
+        <p class="description">
+          A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface
+          to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation.
+          Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!
+        </p>
+      </div>
+    </div>
+    <img class="images" src="#" alt="">
+
+  </main>
+  <div id="footer"></div>
+  <script src="https://cdn.jsdelivr.net/npm/less@4"></script>
+
+  <script src="script/technology.js"></script>
+</body>
+
+</html>

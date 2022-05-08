@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+    </script>
+  <script>
+    $(function () {
+      $("#header").load("header.html");
+      $("#footer").load("footer.html");
+
+    });
+
+  </script>
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet/less" type="text/css" href="style/style.less" />
+  <link rel="stylesheet/less" type="text/css" href="style/home.less" />
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+
+<body>
+  <div id="header"></div>
+
+  <div class="container">
+    <div class="container__left">
+      <h2>
+        So, you want to travel to
+      </h2>
+      <h1>
+        SPACE
+      </h1>
+      <p>
+        Let’s face it; if you want to go to space, you might as well genuinely go to
+        outer space and not hover kind of on the edge of it. Well sit back, and relax
+        because we’ll give you a truly out of this world experience!
+
+      </p>
+    </div>
+    <div class="container__right">
+      <a href="JavaScript:setTimeout(loadUrl,1000)">
+        <div class="explore">
+          <span>
+            Explore
+          </span>
+
+        </div>
+      </a>
+    </div>
+  </div>
+  <div id="footer"></div>
+
+  <script>
+
+    const explore = document.querySelector('.explore');
+    explore.addEventListener('click', function () {
+      explore.className = 'explore rotate_home';
+      delay(1000).then(() => explore.className = 'explore');
+    });
+
+    function delay(time) {
+      return new Promise(resolve => setTimeout(resolve, time));
+    }
+    function loadUrl() {
+      window.location.href = "destination.html";
+    }
+
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/less@4"></script>
+  <script src="destination.html"></script>
+</body>
+
+</html>
