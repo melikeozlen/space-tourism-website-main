@@ -29,7 +29,7 @@ Kullanıcı şunları yapabilmelidir:
 - Yeni bilgileri görmek için sekmeler arasında geçiş 
 
 ### Screenshot
-<img align="center" src="https://user-images.githubusercontent.com/44196940/167313727-606b00b4-a09b-416a-873f-127b7f97f09d.png" width="1000"/> 
+<img align="center" src="https://user-images.githubusercontent.com/44196940/167313727-606b00b4-a09b-416a-873f-127b7f97f09d.png" width="100%"/> 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
 Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
