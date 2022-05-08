@@ -42,9 +42,10 @@ Sayfa içerikleri yerel data.json dosyasından çekilmiştir.
 <img  src="https://user-images.githubusercontent.com/44196940/167314248-c97cdf56-35fb-4ea2-ac43-7a4c0fe3bfaf.png" width="49%"/> 
 </p>
 <p float="left">
- <img  src="https://user-images.githubusercontent.com/44196940/167314259-e71fda44-ea8c-4c1c-9645-0da7f63a673e.png" width="49%"/> 
-<img  src="https://user-images.githubusercontent.com/44196940/167314269-8775d632-fd69-42f3-9744-d97169b26473.png" width="49%"/> 
+ <img  src="https://user-images.githubusercontent.com/44196940/167314398-9f06a579-16b5-4bae-8f59-4b3d8a98aa09.png" width="49%"/> 
+<img  src="https://user-images.githubusercontent.com/44196940/167314424-0bab480e-c28a-48ba-bd98-25a5d3514872.png" width="49%"/> 
 </p>
+
 
 ### Links
 
