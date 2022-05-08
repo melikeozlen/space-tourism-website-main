@@ -25,18 +25,26 @@ This is a solution to the [Space tourism website challenge on Frontend Mentor]
 Kullanıcı şunları yapabilmelidir:
 
 - Cihazlarının ekran boyutuna bağlı olarak web sitesinin her sayfası için en uygun düzeni görüntüleme (responsive)
-- Hover efektleri
+- Hover efektleri, eğlenceli animasyonlar
 - Yeni bilgileri görmek için sekmeler arasında geçiş 
 
 ### Screenshot
+#Açılış sayfası
 <p float="left">
  <img  src="https://user-images.githubusercontent.com/44196940/167313727-606b00b4-a09b-416a-873f-127b7f97f09d.png" width="49%"/> 
 <img  src="https://user-images.githubusercontent.com/44196940/167314090-8810e08e-626b-4274-910d-8d747e70301a.png" width="49%"/> 
-
 </p>
 
-
-
+#Destination
+Sayfa içerikleri yerel data.json dosyasından çekilmiştir.
+<p float="left">
+ <img  src="![image](https://user-images.githubusercontent.com/44196940/167314234-7e4d9e02-88fd-416f-be45-51318a26d777.png)" width="49%"/> 
+<img  src="![image](https://user-images.githubusercontent.com/44196940/167314248-c97cdf56-35fb-4ea2-ac43-7a4c0fe3bfaf.png)" width="49%"/> 
+</p>
+<p float="left">
+ <img  src="![image](https://user-images.githubusercontent.com/44196940/167314259-e71fda44-ea8c-4c1c-9645-0da7f63a673e.png)" width="49%"/> 
+<img  src="![image](https://user-images.githubusercontent.com/44196940/167314269-8775d632-fd69-42f3-9744-d97169b26473.png)" width="49%"/> 
+</p>
 
 ### Links
 
