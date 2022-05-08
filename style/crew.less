@@ -1,0 +1,206 @@
+body {
+    background-image: url('/starter-code/assets/crew/background-crew-desktop.jpg');
+    background-size: auto;
+    background-repeat: no-repeat;
+
+}
+
+#header {
+    nav {
+        a:nth-child(3)::before {
+            opacity: 1;
+        }
+    }
+}
+
+.container {
+    margin-top: 5em;
+    width: 90%;
+    padding-inline: 7em;
+    color: white;
+
+
+    .container__right {
+
+        img {
+            right: 5em;
+            width: 27%;
+            height: auto;
+            bottom: 0;
+            position: absolute;
+        }
+    }
+
+    .container__left {
+        width: 50%;
+        display: grid;
+        grid-template-rows: 1em 2em 5em 1em;
+        gap: 5em;
+
+        p:nth-child(1) {
+            text-transform: uppercase;
+            font-weight: 400;
+            font-size: 2rem;
+            color: #d0d6f9;
+            margin-bottom: 1.5em;
+
+            span {
+                color: #979797;
+                padding-right: 0.5rem;
+            }
+        }
+
+        h3 {
+            font-size: 2rem;
+            color: #979797;
+            text-transform: uppercase;
+            font-weight: 100;
+            font-family: "Bellefair";
+        }
+
+        h2 {
+            font-size: 2.3rem;
+            text-transform: uppercase;
+            font-family: "Bellefair";
+            font-weight: 100;
+        }
+
+        #bio {
+            font-weight: 400;
+            font-size: 1.1rem;
+            letter-spacing: 0.05rem;
+            line-height: 2rem;
+            color: #d0d6f9;
+
+        }
+
+        .buttons {
+            button {
+                margin-top: 2em;
+                margin-right: 1em;
+                width: 1.5em;
+                height: 1.5em;
+                background-color: #979797;
+                border-radius: 100px;
+                cursor: pointer;
+            }
+
+            .selected {
+                position: relative;
+                background: white;
+            }
+        }
+
+    }
+
+}
+
+
+@media (max-width: 1151px) {
+    .container {
+        width: 98%;
+    }
+}
+
+@media (max-width: 920px) {
+    .container {
+        margin-top: 2em;
+        padding-inline: 0em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+
+        .container__right {
+            display: flex;
+            width: 100%;
+            justify-content: center;
+
+            img {
+                width: 50%;
+                height: auto;
+                position: relative;
+                right: 0;
+                z-index: -1;
+            }
+        }
+
+
+
+        .p {
+            grid-area: p;
+        }
+
+        .h {
+            grid-area: h;
+        }
+
+        #bio {
+            grid-area: bio;
+        }
+
+        .buttons {
+            z-index: 5;
+            grid-area: buttons;
+
+            button {
+                margin-top: 0em;
+                width: 0.1em;
+                height: 0.1em;
+            }
+        }
+
+        .container__left {
+            margin-bottom: 2em;
+            text-align: center;
+            width: 90%;
+            display: grid;
+            margin-top: 0em;
+            grid-template-rows: 0.5fr 3fr 3fr 1fr;
+            grid-template-columns: 1fr;
+            gap: 0;
+            grid-template-areas:
+                "p"
+                "h"
+                "bio"
+                "buttons";
+
+
+            p:nth-child(1) {
+                left: 0;
+                text-align: start;
+                font-size: 1.7rem;
+                color: #d0d6f9;
+                justify-content: flex-start;
+                
+            }
+
+            #bio {
+                padding-inline: 5em;
+            }
+
+        }
+    }
+
+    body {
+        background-image: url('/starter-code/assets/crew/background-crew-tablet.jpg');
+        background-size:cover;
+        
+    }
+}
+
+@media (max-width: 540px) {
+    .container {
+                .container__left {
+            #bio {
+                padding-inline: 1em;
+            }
+        }
+    }
+
+    body {
+        margin-bottom: 0;
+        background-image: url('/starter-code/assets/crew/background-crew-mobile.jpg');
+        background-size: cover;
+    }
+}

@@ -1,0 +1,244 @@
+body {
+    background-image: url('/starter-code/assets/technology/background-technology-desktop.jpg');
+    background-size: auto;
+    background-repeat: no-repeat;
+
+}
+
+#header {
+    nav {
+        a:nth-child(4)::before {
+            opacity: 1;
+        }
+    }
+}
+
+.p {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 2rem;
+    color: #d0d6f9;
+
+    span {
+        color: #979797;
+        padding-right: 0.5rem;
+    }
+}
+
+ul {
+    grid-area: ul;
+}
+
+.text {
+    grid-area: text;
+}
+
+.p {
+    grid-area: p;
+}
+
+main {
+
+    display: grid;
+    grid-template-columns: 2fr auto;
+    width: 100%;
+    color: white;
+    align-items: center;
+    padding-top: 1em;
+    gap: 5em;
+    justify-content: center;
+
+    .container {
+        margin-left: 9em;
+        padding: 1em;
+        display: grid;
+        align-items: center;
+        grid-template-columns: 0.4fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 3fr;
+        grid-template-areas:
+            "p p p p"
+            "ul text text text";
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            gap: 2em;
+            margin-right: 2em;
+
+            li {
+                display: flex;
+                justify-content: center;
+                width: 2.1em;
+                height: 2.1em;
+                text-align: center;
+                border-radius: 100px;
+                border: 1px solid white;
+                cursor: pointer;
+                font-family: "Bellefair";
+                font-size: 2rem;
+                color: white;
+                align-items: center;
+
+                &:hover {
+                    transition: 0.3s;
+                    border: 1px solid #979797;
+                }
+            }
+
+            .selected {
+                background-color: white;
+                color: black;
+            }
+        }
+
+        .text {
+            display: flex;
+            flex-direction: column;
+
+            h3 {
+                font-weight: 300;
+                text-transform: uppercase;
+                color: #d0d6f9;
+                font-size: 1.5rem;
+            }
+
+            h1 {
+                font-family: "Bellefair";
+                font-weight: 300;
+                text-transform: uppercase;
+                font-size: 3.2rem;
+            }
+
+            p {
+                margin-top: 1em;
+                color: #d0d6f9;
+                padding-right: 5em;
+                font-size: 1.1rem;
+                line-height: 1.4rem;
+                letter-spacing: 0.1rem;
+            }
+        }
+    }
+
+    img {
+        width: 20rem;
+        height: auto;
+    }
+}
+
+@media (max-width: 1190px) {
+    main {
+        margin-top: 1em;
+        gap: 0.5em;
+
+        .container {
+            margin-left: 2em;
+
+            ul {
+                gap: 1em;
+                margin-right: 1em;
+
+                li {
+                    width: 2.1em;
+                    height: 2.1em;
+                    font-size: 1.8rem;
+
+                }
+            }
+        }
+
+
+    }
+}
+
+//tablet
+
+@media (max-width: 970px) {
+    body {
+        background-image: url('/starter-code/assets/technology/background-technology-tablet.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        main {
+            display: flex;
+            flex-direction: column-reverse;
+            margin-top: 3em;
+            grid-template-columns: 2fr 1fr;
+
+            .p {
+                position: absolute;
+                top: 4.8em;
+                left: 0.3em;
+                font-size: 1.7rem;
+            }
+
+            img {
+                width: 80%;
+                margin-top: 2.5em;
+            }
+
+            .container {
+                display: flex;
+                flex-direction: column;
+
+                ul {
+                    display: flex;
+                    flex-direction: row;
+
+                    li {
+                        width: 1.1em;
+                        height: 1.1em;
+                    }
+                }
+
+                .text {
+                    margin-top: 1em;
+                    text-align: center;
+
+                    h3 {
+                        font-size: 1.4rem;
+                    }
+
+                    h1 {
+                        font-size: 2.3rem;
+                    }
+
+                    p {
+                        margin-top: 1em;
+                        color: #d0d6f9;
+                        padding-right: 0;
+                        font-size: 1rem;
+                        letter-spacing: 0.05rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//mobile
+@media (max-width: 540px) {
+
+
+    body {
+        background-image: url('/starter-code/assets/technology/background-technology-mobile.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        main {
+
+            img {
+                width: 100%;
+            }
+            .container{
+                   .text{
+                p{
+                    letter-spacing: 0.08rem;
+                }
+            }
+            }
+         
+
+        }
+    }
+}
