@@ -29,8 +29,11 @@ Kullanıcı şunları yapabilmelidir:
 - Yeni bilgileri görmek için sekmeler arasında geçiş 
 
 ### Screenshot
-<img  src="https://user-images.githubusercontent.com/44196940/167313727-606b00b4-a09b-416a-873f-127b7f97f09d.png" width="45%"/> 
-<img  src="https://user-images.githubusercontent.com/44196940/167314090-8810e08e-626b-4274-910d-8d747e70301a.png" width="45%"/> 
+<p float="left">
+ <img  src="https://user-images.githubusercontent.com/44196940/167313727-606b00b4-a09b-416a-873f-127b7f97f09d.png" width="49%"/> 
+<img  src="https://user-images.githubusercontent.com/44196940/167314090-8810e08e-626b-4274-910d-8d747e70301a.png" width="49%"/> 
+
+</p>
 
 
 
